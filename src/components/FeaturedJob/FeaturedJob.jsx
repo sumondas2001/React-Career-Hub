@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaLocationDot } from "react-icons/fa6";
 import { PiCurrencyCircleDollarFill } from "react-icons/pi";
+import PropTypes from 'prop-types';
 
 
 
@@ -32,5 +33,9 @@ const FeaturedJob = ({ job }) => {
           </div >
      );
 };
+
+FeaturedJob.propTypes = {
+     job: PropTypes.object
+}
 
 export default FeaturedJob;

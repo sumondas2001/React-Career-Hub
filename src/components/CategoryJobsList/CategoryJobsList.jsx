@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 
 const CategoryJobsList = ({ list }) => {
@@ -11,5 +12,8 @@ const CategoryJobsList = ({ list }) => {
           </div>
      );
 };
+CategoryJobsList.propTypes = {
+     list: PropTypes.object
+}
 
 export default CategoryJobsList;

@@ -10,7 +10,7 @@ import {
 import AppliedJobs from './components/AppliedJobs/AppliedJobs.jsx';
 import ErrorPage from './components/Error/ErrorPage.jsx';
 import JobDetails from './components/JobDetails/JobDetails.jsx';
-import FeaturedJob from './components/FeaturedJob/FeaturedJob.jsx';
+
 import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs.jsx';
 
 

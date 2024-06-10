@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import PropTypes from 'prop-types';
 
 const AppliedJobsAll = ({ job }) => {
      const { logo, job_title, company_name, job_type, location, salary, remote_or_onsite, id } = job;
@@ -33,5 +33,8 @@ const AppliedJobsAll = ({ job }) => {
           </div>
      );
 };
+AppliedJobsAll.propTypes = {
+     job: PropTypes.object
+}
 
 export default AppliedJobsAll;
